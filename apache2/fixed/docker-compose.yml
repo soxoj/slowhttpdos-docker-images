@@ -1,9 +1,0 @@
-version: '3'
-
-services:
-    lamp:
-        build: .
-        ports:
-            - "8082:80"
-        volumes:
-            - "./reqtimeout.conf:/etc/apache2/mods-enabled/reqtimeout.conf"

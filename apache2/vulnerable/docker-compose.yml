@@ -1,7 +1,0 @@
-version: '3'
-
-services:
-    lamp:
-        build: .
-        ports:
-            - "8081:80"
